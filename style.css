@@ -1,3 +1,38 @@
-body { 
-    background-color: rgb(238, 213, 225);
+.mgarcia-body{
+    display: block ;
+    margin: 5px;
+}
+
+.mgarcia-presentacion {
+    width: 200px;
+    height:600px;
+    border: 1px solid gray;
+    background-color: rgb(93,133,186);
+    text-align: center;
+}
+
+.mgarcia-foto{
+    height: 163px;
+    width: 174px;
+    padding: 5px;
+}
+
+.mgarcia-datospersonales{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.mgarcia-general{
+    font-size: 10px;
+
+}
+
+
+.mgarcia-footer{
+    width: 800px;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(93,133,186);
 }
