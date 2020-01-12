@@ -20,15 +20,22 @@
 .mgarcia-datospersonales{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
     text-align: center;
-    font-size: 16px;
-    
+    font-size: 14px;
+    color: white;
+}
+.mini-titles{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    background-color: rgb(4,46,88);
+    font-size: 17px;
+}
+#skills-list{
+    text-align: left;
 }
 
 .mgarcia-general{
     font-size: 10px;
 
 }
-
 
 .mgarcia-footer{
     width: 800px;
