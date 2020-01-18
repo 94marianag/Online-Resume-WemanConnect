@@ -1,19 +1,19 @@
 .mgarcia-body{
-    display: block ;
+    display: flex ;
     margin: 5px;
 }
 
 .mgarcia-presentacion {
     width: 200px;
-    height:600px;
+    height:1000%;
     border: 1px solid gray;
     background-color: rgb(93,133,186);
     text-align: center;
 }
 
 .mgarcia-foto{
-    height: 163px;
-    width: 174px;
+    height: auto;
+    width: auto;
     padding: 5px;
 }
 
@@ -33,13 +33,21 @@
 }
 
 .mgarcia-general{
-    font-size: 10px;
+    font-size: 12px;
+    width: 1000px;
+
 
 }
-
-.mgarcia-footer{
-    width: 800px;
-    height: 70px;
-    margin: 5px;
-    background-color: rgb(93,133,186);
+#nombre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+    width: 500%;
+    height: 8%;
+    background-color: gray;
 }
+
