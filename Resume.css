@@ -6,39 +6,33 @@ body{
     font-family: sans-serif;
 }
 .maincontainer{
-    margin-right: 20em;
-    margin-left: 20em;    
+    /* margin-right: 20em;
+    margin-left: 20em;      */
     justify-content: center;
 }
 
 .header{
     width: 100%;
     height: 15%;
-    background-color: #479099;
-    border-bottom: .3em solid gray;
+    background-color: #66798c;
+
     display: flex;
     flex-direction: row;
     color: white;
-    border: .1em solid whitesmoke;
-}
-.row1{
-    width: 25%;
-}
-.row2{
-    width: 75%;
-}
-h2{
-    width: 95%;
-    border-bottom: .1em solid whitesmoke;
+
 }
 
-img{
-    height: 3.7cm;
-    width: 3.7cm;
-    margin: .8em;
-    border-radius: 50%;
-    border: .1em solid white;
+.row2{
+    margin: 1.2em;
+    margin-left: 1.7em;
+    text-align: justify;
 }
+h2{
+    width: 98%;
+    border-bottom: .1em solid whitesmoke;
+    margin-top:0;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -51,26 +45,26 @@ width: 25%;
 height: 100%;
 background-color: white;
 flex-direction: row;
-border: .1em solid whitesmoke;
+
 }
 
 .titles{
 width: 95%;
 height: 1.8em;
 border-bottom-right-radius: 20px;
-background-color:#479099;
+background-color:#fdeddf;
 margin-top: .3em;
 margin-bottom: 5px;
 padding-left: .5em;
 padding-top: .2em;
-color: white;
+color: #323639;
 }
 #software{
-    border: 2px solid #479099;
+    border: 2px solid #66798c;
     background-color: white;
     border-radius: 5px;
     padding: 3px;
-    margin:5%;
+    margin:3%;
     color: black; 
     float: inline-end;
 }
@@ -81,7 +75,7 @@ color: white;
 }
 /*Barra de Progreso*/
 progress{
-    background-color: rgba(128, 128, 128, 0.671); 
+    background-color: #323639; 
     height: 1em; 
     width: 90%; 
     margin-left: .5em;
@@ -90,10 +84,9 @@ progress{
 progress::-webkit-progress-bar{ 
    background-color: rgba(146, 144, 144, 0.452); 
    border-radius: 3px;
-   border-color: greenyellow;
 }
 progress::-webkit-progress-value{ 
-   background: #479099; 
+   background: #66798c; 
    border-radius: 3px;
 }
 
@@ -110,9 +103,11 @@ progress::-webkit-progress-value{
 }
 
 #hola{
-    background-color: #479099;
+    background-color: #fdeddf;
     padding: .23em;
+    margin-top: .1em;
     border-radius: 50%;
+    color: #323639;
 }
 .asideright{
     width: 63%;
@@ -132,7 +127,7 @@ progress::-webkit-progress-value{
     margin-top: 1.5em; 
 }
 #text1{
-    width: 95%;
+    width: 98%;
     text-align: justify;
 }
 
@@ -155,7 +150,7 @@ ul{
 }
 
 #data{
-    border: 2px solid #479099;
+    border: 2px solid #66798c;
     border-radius: 5px;
     padding: 2%;
     margin:2%;
@@ -164,7 +159,7 @@ ul{
     height: 2em;
 }
 #data2{
-    border: 2px solid #479099;
+    border: 2px solid #66798c;
     border-radius: 5px;
     padding: 2%;
     margin:2%;
