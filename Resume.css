@@ -155,7 +155,7 @@ ul{
     padding: 2%;
     margin:2%;
     margin-right: 5%;
-    color: black; 
+    color: #323639; 
     height: 2em;
 }
 #data2{
@@ -164,10 +164,10 @@ ul{
     padding: 2%;
     margin:2%;
     margin-right: 5%;
-    color: black; 
+    color: #323639; 
     height: 2em;
     padding-bottom: 5%;
 }
 a{
-    color: rgba(0, 0, 255, 0.877);
+    color: #66798c;
 }
